@@ -379,5 +379,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: kello
       objectReference: {fileID: 0}
+    - target: {fileID: 8007187174221433688, guid: c982f323f3697b942929aa8a33e80b1d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007187174221433688, guid: c982f323f3697b942929aa8a33e80b1d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007187174221433688, guid: c982f323f3697b942929aa8a33e80b1d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c982f323f3697b942929aa8a33e80b1d, type: 3}
