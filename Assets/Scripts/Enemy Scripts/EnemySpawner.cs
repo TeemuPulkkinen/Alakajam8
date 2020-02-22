@@ -29,7 +29,7 @@ public class EnemySpawner : MonoBehaviour
 
         if(Random.Range(0, 2) > 0)
         {
-            Instantiate(minePrefab, temp, Quaternion.Euler(0f, 0f, -90f));
+            Instantiate(minePrefab, temp, Quaternion.Euler(0f, 0f, 90f));
         }
         //Poista kommentti!
         /*else
