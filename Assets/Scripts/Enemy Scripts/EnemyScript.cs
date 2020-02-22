@@ -29,11 +29,26 @@ public class EnemyScript : MonoBehaviour
 
     }
 
+    void Start()
+    {
+
+        if (canRotate)
+        {
+            if(Random.Range(0, 2) > 0)
+            {
+                rotate_Speed = Random.Range(rotate_Speed, rotate_Speed + 20f);
+                rotate_Speed *= -1f;
+            }
+        }
+
+    }
+
     // Update is called once per frame
     void Update()
     {
 
         Move();
+        RotateEnemy();
         
     }
 
@@ -51,6 +66,18 @@ public class EnemyScript : MonoBehaviour
                 gameObject.SetActive(false);
             }
         } 
+
+    }
+
+    void RotateEnemy()
+    {
+
+        if (canRotate)
+        {
+
+            transform.Rotate(new Vector3(0f, 0f, rotate_Speed * Time.deltaTime), Space.World);
+
+        }
 
     }
 }
