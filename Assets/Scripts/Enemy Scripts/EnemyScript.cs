@@ -15,17 +15,42 @@ public class EnemyScript : MonoBehaviour
     public float bound_Y = -11f;
 
     public Transform attack_Point;
-    public GameObject enemyBullet;
+    public GameObject enemy_Harpoon;
+
+    private Animator anim;
+    private AudioSource destroySound;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+
+        anim = GetComponent<Animator>();
+        destroySound = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        Move();
         
+    }
+
+    void Move()
+    {
+
+        if (canMove)
+        {
+            Vector3 temp = transform.position;
+            temp.y += speed * Time.deltaTime;
+            transform.position = temp;
+
+            if(temp.y < bound_Y)
+            {
+                gameObject.SetActive(false);
+            }
+        } 
+
     }
 }
