@@ -20,6 +20,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void Exit()
     {
         Application.Quit();
