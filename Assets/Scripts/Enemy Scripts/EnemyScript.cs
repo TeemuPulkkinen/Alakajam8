@@ -12,7 +12,7 @@ public class EnemyScript : MonoBehaviour
     public bool canRotate;
     private bool canMove = true;
 
-    public float bound_Y = 6.20f;
+    public float bound_Y = -11f;
 
     public Transform attack_Point;
     public GameObject enemy_Harpoon;
