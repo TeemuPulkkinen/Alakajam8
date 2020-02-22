@@ -389,6 +389,11 @@ PrefabInstance:
       propertyPath: canShoot
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4576693085546450055, guid: a6169f0cb9e4aa54c8146bedbc7da728,
+        type: 3}
+      propertyPath: bound_Y
+      value: -11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6169f0cb9e4aa54c8146bedbc7da728, type: 3}
 --- !u!1001 &2555386714384884079
