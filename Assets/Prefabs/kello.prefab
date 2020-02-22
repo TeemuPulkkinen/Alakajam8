@@ -4926,7 +4926,7 @@ MonoBehaviour:
   player_Harpoon: {fileID: 4769267201861206376, guid: c60b6152c462c594da4fc94a6397a895,
     type: 3}
   attack_Point: {fileID: 8007187174221433688}
-  attack_Timer: 0.35
+  attack_Timer: 0.8
 --- !u!1 &6271769723179225860
 GameObject:
   m_ObjectHideFlags: 0
