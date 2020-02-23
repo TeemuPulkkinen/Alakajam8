@@ -25,6 +25,12 @@ public class PlayerController : MonoBehaviour{
     //pitääehkä poistaa
     public string LoadScene;
 
+    private AudioSource harpoonshot;
+
+    private void Awake()
+    {
+        harpoonshot = GetComponent<AudioSource>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -100,6 +106,7 @@ public class PlayerController : MonoBehaviour{
 
                 Instantiate(player_Harpoon, attack_Point.position, Quaternion.identity);
 
+                harpoonshot.Play();
                 //Play the sound FX
 
             }
