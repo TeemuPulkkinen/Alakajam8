@@ -5,29 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneTimer : MonoBehaviour
 {
-    // can be set in the Inspector for this script
+    
     public string TreasureChest;
-    // alternatively, you can do something like
-    // public const string sceneName = "SecondScene";
+    
+    public const float Timer_Time = 5F;
 
-    // time after this script initializes, in seconds,
-    // that the scene transition will happen
-    public const float TIME_LIMIT = 5F;
-
-    // timer variable
-    private float timer = 0F;
-    // alternatively, you can set this in an Awake() function,
-    // which is automatically called when the script initializes
-
-    // automatically called many times every second
+    
+    private float time = 0F;
+    
     void Update()
     {
-        // deltaTime is the time (measured in seconds) since the previous Update step
-        // it's typically very small, e.g. 1/60th of a second ~= 0.0167F
-        this.timer += Time.deltaTime;
+        
+        this.time += Time.deltaTime;
 
-        // check if it's time to switch scenes
-        if (this.timer >= TIME_LIMIT)
+        
+        if (this.time >= Timer_Time)
         {
             SceneManager.LoadScene(TreasureChest);
         }
