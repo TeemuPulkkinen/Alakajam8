@@ -80,4 +80,13 @@ public class EnemyScript : MonoBehaviour
         }
 
     }
+    void OnTriggerEnter2D(Collider2D target)
+    {
+
+        if (target.tag == "Harpoon")
+        {
+            gameObject.SetActive(false);
+        }
+
+    }
 }

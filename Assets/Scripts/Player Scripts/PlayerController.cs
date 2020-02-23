@@ -103,4 +103,13 @@ public class PlayerController : MonoBehaviour{
         }
 
     }
+    void OnTriggerEnter2D(Collider2D target)
+    {
+
+        if (target.tag == "Enemy")
+        {
+            gameObject.SetActive(false);
+        }
+
+    }
 }
