@@ -17,7 +17,7 @@ public class TextRandomizer : MonoBehaviour
         switch (num)
         {
             case 1:
-                paperText.text = "Pyyhi kakkainen aanuksesi tällä senkin hetero :D -memegod";
+                paperText.text = "Pyyhi kakkainen pyly tällä senkin hetero :D -memegod";
                 break;
             case 2:
                 paperText.text = "aaaa tsajajaajajajaa shalaaa";
