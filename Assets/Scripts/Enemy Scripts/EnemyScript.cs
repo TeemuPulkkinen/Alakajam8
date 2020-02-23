@@ -23,7 +23,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-
+        
         anim = GetComponent<Animator>();
         destroySound = GetComponent<AudioSource>();
 
@@ -85,6 +85,7 @@ public class EnemyScript : MonoBehaviour
 
         if (target.tag == "Harpoon")
         {
+            destroySound.Play();
             gameObject.SetActive(false);
         }
 
