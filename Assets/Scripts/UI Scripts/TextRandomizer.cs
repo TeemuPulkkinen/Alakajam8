@@ -17,16 +17,16 @@ public class TextRandomizer : MonoBehaviour
         switch (num)
         {
             case 1:
-                paperText.text = "Pyyhi kakkainen pyly tällä senkin hetero :D -memegod";
+                paperText.text = "“If there is magic on this planet, it is contained in water.” - Loren Eiseley";
                 break;
             case 2:
                 paperText.text = "“One cannot step twice in the same river.” - Heraclitus";
                 break;
             case 3:
-                paperText.text = "Dropletto sama doenst kill you and thee shall'nt've' drown in bucket";
+                paperText.text = "“Water is the driving force of all nature.” - Leonardo da Vinci";
                 break;
             case 4:
-                paperText.text = "Ei >:(";
+                paperText.text = "“Nothing is softer or more flexible than water, yet nothing can resist it.” - Lao Tzu";
                 break;
         }
         //paperText.text = "“One cannot step twice in the same river.” - Heraclitus";
