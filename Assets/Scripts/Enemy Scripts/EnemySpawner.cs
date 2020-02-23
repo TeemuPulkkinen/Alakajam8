@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     public float min_X = -5.85f, max_X = 5.7f;
 
     public GameObject minePrefab;
-    //public GameObject enemyPrefab;
+    public GameObject enemyPrefab;
 
     public float timer = 2f;
 
@@ -31,11 +31,10 @@ public class EnemySpawner : MonoBehaviour
         {
             Instantiate(minePrefab, temp, Quaternion.Euler(0f, 0f, 90f));
         }
-        //Poista kommentti!
-        /*else
+        else
         {
-            Instantiate(enemyPrefab, temp, Quaternion.Euler(0f, 0f, -90f));
-        }*/
+            Instantiate(enemyPrefab, temp, Quaternion.Euler(0f, 0f, 0f));
+        }
 
         Invoke("SpawnEnemies", timer);
 
