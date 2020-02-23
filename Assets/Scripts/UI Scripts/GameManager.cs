@@ -30,4 +30,9 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void VictoryScreen()
+    {
+        SceneManager.LoadScene("VictoryScene");
+    }
+
 }
