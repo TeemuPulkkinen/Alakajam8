@@ -10,7 +10,7 @@ public class TextRandomizer : MonoBehaviour
     
     private void Awake()
     {
-        this.gameObject;
+        
     }
 
     void RandomizeText()
