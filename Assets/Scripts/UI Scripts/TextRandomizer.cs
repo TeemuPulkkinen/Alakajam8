@@ -5,16 +5,12 @@ using UnityEngine.UI;
 
 public class TextRandomizer : MonoBehaviour
 {
-    GameObject gameObject;
-    Text paperText;
-    
-    private void Awake()
-    {
-        
-    }
+    public TMPro.TextMeshProUGUI paperText;
+    public List<string> list;
 
-    void RandomizeText()
-    {
 
+    void Awake()
+    {
+        paperText.text = "“One cannot step twice in the same river.” - Heraclitus";
     }
 }
