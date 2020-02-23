@@ -411,7 +411,7 @@ MonoBehaviour:
     type: 3}
   enemyPrefab: {fileID: 5123253122129215444, guid: eb9a09598cf77dd40ad6f26c63a71f8e,
     type: 3}
-  timer: 2
+  timer: 1.5
 --- !u!4 &643980694
 Transform:
   m_ObjectHideFlags: 0
