@@ -214,7 +214,6 @@ GameObject:
   - component: {fileID: 222860063}
   - component: {fileID: 222860062}
   - component: {fileID: 222860061}
-  - component: {fileID: 222860065}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -303,20 +302,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &222860065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222860060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a97a4df1f7465c9499699d46f314bd53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paperText: {fileID: 0}
-  list: []
 --- !u!1 &521128726
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +706,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 238
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -996,7 +981,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967825797}
-  - component: {fileID: 1967825796}
   m_Layer: 0
   m_Name: TextRandomizer
   m_TagString: Untagged
@@ -1004,20 +988,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1967825796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967825795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a97a4df1f7465c9499699d46f314bd53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paperText: {fileID: 1397606818}
-  list: []
 --- !u!4 &1967825797
 Transform:
   m_ObjectHideFlags: 0
