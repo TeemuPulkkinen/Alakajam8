@@ -237,6 +237,8 @@ MonoBehaviour:
   max_X: 5.7
   minePrefab: {fileID: 4377586666611030833, guid: c12b570d094991640999c87605b4f05f,
     type: 3}
+  enemyPrefab: {fileID: 5123253122129215444, guid: eb9a09598cf77dd40ad6f26c63a71f8e,
+    type: 3}
   timer: 2
 --- !u!4 &643980694
 Transform:
