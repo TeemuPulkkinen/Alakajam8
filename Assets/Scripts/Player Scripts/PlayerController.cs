@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour{
 
@@ -21,6 +22,8 @@ public class PlayerController : MonoBehaviour{
     private float current_Attack_Timer;
 
     private bool canAttack;
+    //pitääehkä poistaa
+    public string LoadScene;
 
     // Start is called before the first frame update
     void Start()
@@ -110,6 +113,8 @@ public class PlayerController : MonoBehaviour{
         {
             gameObject.SetActive(false);
         }
+
+        SceneManager.LoadScene(LoadScene);
 
     }
 }

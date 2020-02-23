@@ -234,6 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TreasureChest: TreasureChest
+  TimerTime: 60
 --- !u!4 &547589459
 Transform:
   m_ObjectHideFlags: 0
@@ -422,6 +423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: max_X
       value: 5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 156548319636215362, guid: c982f323f3697b942929aa8a33e80b1d,
+        type: 3}
+      propertyPath: LoadScene
+      value: Gameplay
       objectReference: {fileID: 0}
     - target: {fileID: 2555386712998583645, guid: c982f323f3697b942929aa8a33e80b1d,
         type: 3}
