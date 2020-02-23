@@ -20,7 +20,7 @@ public class TextRandomizer : MonoBehaviour
                 paperText.text = "Pyyhi kakkainen pyly tällä senkin hetero :D -memegod";
                 break;
             case 2:
-                paperText.text = "aaaa tsajajaajajajaa shalaaa";
+                paperText.text = "“One cannot step twice in the same river.” - Heraclitus";
                 break;
             case 3:
                 paperText.text = "Dropletto sama doenst kill you and thee shall'nt've' drown in bucket";
