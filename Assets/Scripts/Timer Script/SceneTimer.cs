@@ -8,18 +8,18 @@ public class SceneTimer : MonoBehaviour
     
     public string TreasureChest;
     
-    public const float TIME_LIMIT = 5F;
+    public const float Timer_Time = 5F;
 
     
-    private float timer = 0F;
+    private float time = 0F;
     
     void Update()
     {
         
-        this.timer += Time.deltaTime;
+        this.time += Time.deltaTime;
 
         
-        if (this.timer >= TIME_LIMIT)
+        if (this.time >= Timer_Time)
         {
             SceneManager.LoadScene(TreasureChest);
         }
