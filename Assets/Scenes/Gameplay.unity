@@ -361,6 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TreasureChest: TreasureChest
+  TimerTime: 60
 --- !u!4 &547589459
 Transform:
   m_ObjectHideFlags: 0
