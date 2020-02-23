@@ -915,8 +915,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 6.024994}
-  m_SizeDelta: {x: -156.1, y: -189.9}
+  m_AnchoredPosition: {x: 0.7999878, y: 6.024994}
+  m_SizeDelta: {x: -107.6, y: -189.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1577853832
 MonoBehaviour:
@@ -1009,15 +1009,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Graphics and art: Pinja Auer
+  m_text: 'Graphics and art: Pinja "Candykitten" Auer
 
-    Sound Programming & Sound Design: Tuomo
-    Hanioja
+    Sound Programming & Sound
+    Design: Tuomo "Haxxord" Hanioja
 
-    Game Design/UI Design: Teemu Pulkkinen
+    Game Design/UI Design: Teemu "Devousa" Pulkkinen
 
-    Gameplay Programming:
-    Satu Remes'
+    Gameplay
+    Programming: Satu "R3messa" Remes'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1086,10 +1086,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1687866304}
-    characterCount: 148
+    characterCount: 192
     spriteCount: 0
-    spaceCount: 20
-    wordCount: 21
+    spaceCount: 24
+    wordCount: 25
     linkCount: 0
     lineCount: 4
     pageCount: 1
